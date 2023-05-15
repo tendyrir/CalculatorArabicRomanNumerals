@@ -15,7 +15,7 @@ public class Main {
 
     public static String calc(String input) {
 
-        String[] expression = input.split("\\s+");
+        String[] expression = input.split("\\s");
 
         if (expression.length != 3) {
             throw new InputMismatchException("Expression does not match pattern: [operand][ ][operation][ ][operand]");
